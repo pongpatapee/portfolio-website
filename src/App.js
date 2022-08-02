@@ -1,4 +1,3 @@
-import './App.css';
 import ThemeBtn from './components/ThemeBtn';
 
 function App() {
