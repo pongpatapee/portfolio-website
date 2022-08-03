@@ -6,7 +6,7 @@ const ThemeBtn = () => {
     const handleMode = () => setDarkTheme(!darkTheme);
 
     return (
-        <button onClick={handleMode} className="cursor-pointer">
+        <button onClick={handleMode} className="theme-btn">
             {darkTheme ? <BsFillSunFill size={24} /> : <BsFillMoonFill size={22} />}
         </button>
     );

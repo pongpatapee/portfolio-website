@@ -52,8 +52,23 @@
   src: url("./fonts/kongtext.ttf")
 }
 
+@layer base {
+  * {
+    @apply font-kongtext
+  }
+}
+
 @layer components {
-  .btn {
+  .home-btn {
     @apply text-3xl font-kongtext m-6 cursor-pointer
-  } 
+  }
+
+  .links li {
+    @apply mx-3
+  }
+
+  .theme-btn {
+    @apply cursor-pointer ml-5
+  }
+
 }
