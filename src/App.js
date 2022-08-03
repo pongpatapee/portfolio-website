@@ -1,13 +1,15 @@
-import ThemeBtn from './components/ThemeBtn';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <div className="bg-white text-black dark:bg-black dark:text-white w-30 h-30">
-        hello
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
       </div>
-      <ThemeBtn />
-    </div>
+    </Router>
   );
 }
 

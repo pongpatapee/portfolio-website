@@ -3,6 +3,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
+    fontFamily: {
+      pixeled: ["Pixeled", "sans-serif"],
+      pixellari: ["Pixellari", "sans-serif"],
+      bubblyPixel: ["bubblyPixel", "sans-serif"],
+      upheavtt: ["upheavtt", "sans-serif"],
+      kongtext: ["kongtext", "sans-serif"],
+      ka1: ["ka1", "sans-serif"],
+    },
     extend: {
       backgroundColor: {
         primary: "var(--color-bg-primary)",
