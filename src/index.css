@@ -54,7 +54,8 @@
 
 @layer base {
   * {
-    @apply font-kongtext
+    /* @apply font-kongtext */
+    @apply font-pixellari
   }
 }
 
