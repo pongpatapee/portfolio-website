@@ -61,7 +61,7 @@
 
 @layer components {
   .home-btn {
-    @apply text-3xl font-kongtext m-6 cursor-pointer
+    @apply text-3xl font-kongtext m-6 cursor-pointer hover:text-4xl transition-all duration-300
   }
 
   .theme-btn {

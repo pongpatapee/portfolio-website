@@ -22,14 +22,13 @@ const About = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen ">
-      <div className="flex justify-center items-center max-w-6xl border">
+      <div className="flex justify-center items-center max-w-6xl">
         <img src={content.img} alt="my profile"
             className="rounded-lg max-w-lg mr-10" />
 
         <div className="h-full">
           {content.header}
-          <p>{content.details}</p>
-          {content.test}
+          {content.details}
         </div>
       </div>
     </div>
