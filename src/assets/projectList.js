@@ -42,7 +42,7 @@ const projectList = [
     id: uuidv4(),
     title: "Self-Driving Car",
     description: "Created a self-driving car AI & Neural Network visualizer in vanilla JS using a simple genetic algorithm",
-    image: "./self-driving-car.png",
+    image: "./imgs/self-driving-car.png",
     links: {
       "github": "https://github.com/pongpatapee/self-driving-car-js",
       "demo": "https://pongpatapee.github.io/self-driving-car-js/"
