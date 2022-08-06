@@ -12,9 +12,23 @@ const About = () => {
     ),
 
     details: (
-      <p>
-        I'm an International student from Thailand
-      </p>
+      <div className="">
+        <p>
+          I've been studying at Purdue for three years. During that time I have been apart of
+          2 research team: "Image Based Mobile Applications" and "TensorFlow Model Garden".
+          I am currently still active in TensorFlow Model Garden where we research cutting edge
+          Machine Learning models such as YOLOX
+        </p>
+        <p>
+          I've also had the opportunity to work as a Software Engineer for Interos Inc., where I was part
+          of the Backend and API team. The summer before that I worked as a Software Engineer in the Python ML team 
+          for NSTDA (National Science and Technology Development Agency).
+        </p>
+        <p>
+          I love to create things so,
+          I've taught myself web development through online tutorials and udemy web development bootcamps 
+        </p>
+      </div>
     ),
 
     img: myPic,
