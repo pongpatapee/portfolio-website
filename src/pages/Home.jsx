@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
       <div
         className="flex flex-col justify-center items-center h-screen
-                      text-black dark:text-white bg-white dark:bg-black"
+                  text-black dark:text-white bg-white dark:bg-black"
       >
         <h1 className="text-6xl mb-10 font-bold font-bubblyPixel">
           Welcome to my Portfolio!

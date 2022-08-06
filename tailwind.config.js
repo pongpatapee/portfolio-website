@@ -21,6 +21,9 @@ module.exports = {
         primary: "var(--color-text-primary)",
         secondary: "var(--color-text-secondary)",
       },
+      backgroundImage: {
+        'light-bg': "url(assets/light-bg.jpg)",
+      }
     },
   },
   plugins: [],
