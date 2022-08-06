@@ -24,7 +24,7 @@ const About = () => {
     <div className="flex flex-col justify-center items-center h-screen ">
       <div className="flex justify-center items-center max-w-6xl">
         <img src={content.img} alt="my profile"
-            className="rounded-lg max-w-lg mr-10" />
+            className="rounded-lg max-w-lg mr-10 shadow-lg" />
 
         <div className="h-full">
           {content.header}
