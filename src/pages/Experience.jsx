@@ -3,7 +3,7 @@ import ResumeViewer from "../components/ResumeViewer";
 const Experience = () => {
 
   return (
-    <div className="experience">
+    <div className="experience light-dark-bg pt-24">
       <ResumeViewer />
     </div>
   );

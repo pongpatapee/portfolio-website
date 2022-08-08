@@ -1,4 +1,4 @@
-import myPic from "../assets/myPic.jpg";
+import myPic from "../assets/imgs/myPic.jpg";
 
 const About = () => {
   const content = {
@@ -30,12 +30,13 @@ const About = () => {
         </p>
       </div>
     ),
+    skills: [],
 
     img: myPic,
   }
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen ">
+    <div className="flex flex-col justify-center items-center h-screen light-dark-bg ">
       <div className="flex justify-center items-center max-w-6xl">
         <img src={content.img} alt="my profile"
             className="rounded-lg max-w-lg mr-10 shadow-lg" />

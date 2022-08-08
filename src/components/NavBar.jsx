@@ -3,7 +3,7 @@ import ThemeBtn from "./ThemeBtn";
 
 const NavBar = () => {
   return (
-    <nav className="sticky top-0 min-w-full h-16 py-4">
+    <nav className="fixed top-0 min-w-full h-16 py-4">
       <div className="flex items-center justify-between mx-20">
         <h1>Logo</h1>
         <div className="flex">

@@ -1,4 +1,13 @@
 import { v4 as uuidv4 } from 'uuid';
+// import carImg from './imgs/self-driving-car.png';
+
+function importAll(r) {
+  let images = {};
+  r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const images = importAll(require.context('./imgs', false, /\.(png|jpe?g|svg)$/));
 
 /*
 Sample Item
@@ -42,7 +51,7 @@ const projectList = [
     id: uuidv4(),
     title: "Self-Driving Car",
     description: "Created a self-driving car AI & Neural Network visualizer in vanilla JS using a simple genetic algorithm",
-    image: "./imgs/self-driving-car.png",
+    image: images['self-driving-car.png'],
     links: {
       "github": "https://github.com/pongpatapee/self-driving-car-js",
       "demo": "https://pongpatapee.github.io/self-driving-car-js/"
@@ -51,14 +60,25 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "str",
-    description: "alskdjfkl;asdfjl;asdkfjl;aksd jfkl;asdj fkl;asdjfkl; js;dklf jk;alsd;klf j;asdklfj kl;asdjfkl;asd j;klasdjf ;lsdajf l;skadjf l;asdkjf ;klasd jf;asldkjf l;kasdjf ;askldjf akl;sdjf ;klasdjf ;lkasdjf kl;sdjf kl;asdjf;klasdjf",
-    image: "img",
+    title: "Odin Project Landing Page",
+    description: "Build a landing page layout with CSS",
+    image: images['Odin-landing-page.png'],
     links: {
-      "github": "url",
-      "demo": "url"
+      "github": "https://github.com/pongpatapee/Odin-Landing-Page-Project",
+      "demo": "https://pongpatapee.github.io/Odin-Landing-Page-Project/"
     },
-    tags: [],
+    tags: ["web dev", "HTML", "CSS"],
+  },
+  {
+    id: uuidv4(),
+    title: "Odin Project Etch a Sketch",
+    description: "Build an Etch a Sketch canvas with JS & CSS",
+    image: images['Odin-Etch-a-Sketch.png'],
+    links: {
+      "github": "https://github.com/pongpatapee/Odin-Etch-a-Sketch",
+      "demo": "https://pongpatapee.github.io/Odin-Etch-a-Sketch/"
+    },
+    tags: ["web dev", "JS", "HTML", "CSS"],
   },
 ];
 

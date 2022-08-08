@@ -76,5 +76,9 @@
     @apply mx-3 text-xl
   }
 
+  .light-dark-bg {
+    @apply bg-light-bg dark:bg-dark-bg bg-cover dark:bg-cover transition-all duration-300
+  }
+
 
 }

@@ -22,7 +22,8 @@ module.exports = {
         secondary: "var(--color-text-secondary)",
       },
       backgroundImage: {
-        'light-bg': "url(assets/light-bg.jpg)",
+        'light-bg': "url(assets/imgs/light-bg.png)",
+        'dark-bg': "url(assets/imgs/dark-bg.png)",
       }
     },
   },
