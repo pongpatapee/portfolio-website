@@ -23,11 +23,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Pixeled";
-  src: url("./fonts/Pixeled.ttf")
-}
-
-@font-face {
   font-family: "Pixellari";
   src: url("./fonts/Pixellari.ttf")
 }
@@ -38,24 +33,19 @@
 }
 
 @font-face {
-  font-family: "upheavtt";
-  src: url("./fonts/upheavtt.ttf")
-}
-
-@font-face {
-  font-family: "ka1";
-  src: url("./fonts/ka1.ttf")
-}
-
-@font-face {
   font-family: "kongtext";
+  src: url("./fonts/kongtext.ttf")
+}
+
+@font-face {
+  font-family: "custom";
   src: url("./fonts/kongtext.ttf")
 }
 
 @layer base {
   * {
-    /* @apply font-kongtext */
     @apply font-pixellari
+    /* @apply font-custom */
   }
 }
 
