@@ -71,5 +71,7 @@
     transition-all duration-500
   }
 
-
+  .contact-form {
+    @apply flex flex-col border border-black p-12 
+  }
 }

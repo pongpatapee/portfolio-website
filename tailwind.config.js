@@ -4,12 +4,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      pixeled: ["Pixeled", "sans-serif"],
       pixellari: ["Pixellari", "sans-serif"],
       bubblyPixel: ["bubblyPixel", "sans-serif"],
-      upheavtt: ["upheavtt", "sans-serif"],
       kongtext: ["kongtext", "sans-serif"],
-      ka1: ["ka1", "sans-serif"],
       custom: ["custom", "sans-serif"],
     },
     extend: {
