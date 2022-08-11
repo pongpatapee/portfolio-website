@@ -12,14 +12,16 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
       >
         github
       </a>
-      <a
-        href={demo}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600"
-      >
-        demo
-      </a>
+      {demo && 
+        <a
+          href={demo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600"
+        >
+          demo
+        </a>
+      }
     </div>
   );
 };

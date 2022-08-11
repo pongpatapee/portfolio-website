@@ -32,7 +32,7 @@ const projectList = [
     image: "img",
     links: {
       "github": "url",
-      "demo": "url"
+      "demo": ""
     },
     tags: ["Python", "REST API", "School", "Design"],
   },
@@ -43,7 +43,7 @@ const projectList = [
     image: "img",
     links: {
       "github": "url",
-      "demo": "url"
+      "demo": ""
     },
     tags: ["JS", "Genetic Algorithm", "Machine Learning"],
   },
