@@ -10,7 +10,6 @@ const ProjectDetailView = ({
   demo,
   tags,
 }) => {
-  let subtitle;
   const customStyles = {
     content: {
       top: "50%",
@@ -22,11 +21,6 @@ const ProjectDetailView = ({
     },
   };
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    subtitle.style.color = "#f00";
-  }
-
   function closeModal(e) {
     setIsOpen(false);
     e.stopPropagation();
@@ -34,10 +28,8 @@ const ProjectDetailView = ({
 
   return (
     <div>
-      {/* <button onClick={openModal}>Open Modal</button> */}
       <Modal
         isOpen={modalIsOpen}
-        onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Example Modal"
