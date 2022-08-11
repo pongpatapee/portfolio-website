@@ -27,6 +27,17 @@ Sample Item
 const projectList = [
   {
     id: uuidv4(),
+    title: "This Website! (Portfolio Website)",
+    description: "str",
+    image: "img",
+    links: {
+      "github": "https://github.com/pongpatapee/portfolio-website",
+      "demo": "https://pongpatapee.github.io/portfolio-website/"
+    },
+    tags: ["JS", "React"],
+  },
+  {
+    id: uuidv4(),
     title: "ECE 461 NPM grader API",
     description: "My team and I created an API to grade NPM modules for ECE 461 (Software Engineering)",
     image: "img",
@@ -42,7 +53,7 @@ const projectList = [
     description: "Created a flappy bird AI using the NEAT genetic algorithm with TensorFlowjs",
     image: "img",
     links: {
-      "github": "url",
+      "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
       "demo": ""
     },
     tags: ["JS", "Genetic Algorithm", "Machine Learning"],
