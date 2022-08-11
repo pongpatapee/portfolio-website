@@ -35,10 +35,10 @@ const ProjectDetailView = ({
         contentLabel="Example Modal"
         ariaHideApp={false}
       >
-        <button onClick={closeModal}>Close</button>
+        <button onClick={closeModal} className="w-full text-right" >Close</button>
         <h1>{title}</h1>
         <p>{description}</p>
-        <img src={image} alt="demo-img" />
+        <img src={image} alt="demo-img" className="w-[56rem]" />
         <a
           href={github}
           target="_blank"

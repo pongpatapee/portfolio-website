@@ -3,7 +3,8 @@ import ContactForm from "../components/ContactForm";
 const Contact = () => {
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen border-4 border-black">
+    <div className="flex flex-col justify-center items-center
+                    h-screen light-dark-theme">
       <ContactForm />
     </div>
   );

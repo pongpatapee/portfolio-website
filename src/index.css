@@ -67,11 +67,17 @@
   }
 
   .light-dark-theme {
-    @apply bg-light-bg dark:bg-dark-bg bg-cover dark:bg-cover text-black dark:text-white
+    @apply bg-light-bg dark:bg-dark-bg bg-cover dark:bg-cover 
+  text-black dark:text-white dark:border-white
     transition-all duration-500
   }
 
   .contact-form {
-    @apply flex flex-col border border-black p-12 
+    @apply flex flex-col border-2 w-96 h-[32rem] border-black p-12 
   }
+
+  .contact-form-items {
+    @apply border border-black mb-3
+
+  }  
 }
