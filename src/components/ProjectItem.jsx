@@ -24,7 +24,7 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
         demo={demo}
       />
       <h1 className="text-2xl font-bold text-center">{title}</h1>
-      <p>{description}</p>
+      {/* <p>{description}</p> */}
       <img src={image} alt="demo-img" />
       <a
         href={github}
@@ -33,7 +33,7 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className="mr-3 text-blue-600"
+        className="mr-3 text-blue-600 hover:underline"
       >
         github
       </a>
@@ -45,7 +45,7 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
           onClick={(e) => {
             e.stopPropagation();
           }}
-          className="text-blue-600"
+          className="text-blue-600 hover:underline"
         >
           demo
         </a>

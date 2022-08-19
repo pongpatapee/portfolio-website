@@ -18,7 +18,14 @@ const ProjectDetailView = ({
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
+      maxWidth: "68rem",
     },
+    img: {
+      display: "block",
+      marginLeft: "auto",
+      marginRight: "auto",
+      width: "50%"
+    }
   };
 
   function closeModal(e) {
@@ -36,9 +43,9 @@ const ProjectDetailView = ({
         ariaHideApp={false}
       >
         <button onClick={closeModal} className="w-full text-right" >Close</button>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <img src={image} alt="demo-img" className="w-[56rem]" />
+        <h1 className="text-3xl text-center mb-5" >{title}</h1>
+        <p className="mb-6" >{description}</p>
+        <img src={image} alt="demo-img" className="w-[56rem] object-center" />
         <a
           href={github}
           target="_blank"
@@ -46,7 +53,7 @@ const ProjectDetailView = ({
           onClick={(e) => {
             e.stopPropagation();
           }}
-          className="mr-3 text-blue-600"
+          className="mr-3 text-blue-600 hover:underline"
         >
           github
         </a>
@@ -59,7 +66,7 @@ const ProjectDetailView = ({
             onClick={(e) => {
               e.stopPropagation();
             }}
-            className="text-blue-600"
+            className="text-blue-600 hover:underline"
           >
             demo
           </a>
