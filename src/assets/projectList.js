@@ -169,6 +169,17 @@ const projectList = [
     },
     tags: ["web dev", "JS", "HTML", "CSS"],
   },
+  {
+    id: uuidv4(),
+    title: "str",
+    description: "str",
+    image: "img",
+    links: {
+      "github": "url",
+      "demo": "url"
+    },
+    tags: [],
+  },
 ];
 
 export default projectList;
