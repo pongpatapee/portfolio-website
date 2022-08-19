@@ -20,12 +20,6 @@ const ProjectDetailView = ({
       transform: "translate(-50%, -50%)",
       maxWidth: "68rem",
     },
-    img: {
-      display: "block",
-      marginLeft: "auto",
-      marginRight: "auto",
-      width: "50%"
-    }
   };
 
   function closeModal(e) {
@@ -42,10 +36,14 @@ const ProjectDetailView = ({
         contentLabel="Example Modal"
         ariaHideApp={false}
       >
-        <button onClick={closeModal} className="w-full text-right" >Close</button>
-        <h1 className="text-3xl text-center mb-5" >{title}</h1>
-        <p className="mb-6" >{description}</p>
-        <img src={image} alt="demo-img" className="w-[56rem] object-center" />
+        <button onClick={closeModal} className="w-full text-right text-red-600">
+          Close
+        </button>
+        <h1 className="text-3xl text-center mb-5">{title}</h1>
+        <p className="mb-6">{description}</p>
+        <div className="flex justify-center items-center mb-4">
+          <img src={image} alt="demo-img" className="w-[56rem]" />
+        </div>
         <a
           href={github}
           target="_blank"
