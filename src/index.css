@@ -1,22 +1,7 @@
-/* .dark {
-  --color-bg-primary: #2d3748;
-  --color-bg-secondary: #283141;
-  --color-text-primary: #f7fafc;
-  --color-text-secondary: #e2e8f0;
-  --color-text-accent: #81e6d9;
-}
-
-.light {
-  --color-bg-primary: #ffffff;
-  --color-bg-secondary: #edf2f7;
-  --color-text-primary: #2d3748;
-  --color-text-secondary: #4a5568;
-  --color-text-accent: #2b6cb0;
-}
-
 :root {
-  @apply .light;
-} */
+  --color-dark: rgb(255, 255, 255);
+  --color-light: rgb(0, 0, 0);
+}
 
 @tailwind base;
 @tailwind components;
@@ -58,10 +43,6 @@
     @apply cursor-pointer ml-5
   }
 
-  .download-btn {
-    @apply border-4 border-black rounded-md p-2 bg-black bg-opacity-0 hover:bg-opacity-5
-  }
-
   .links li {
     @apply mx-3 text-xl
   }
@@ -69,16 +50,28 @@
   .light-dark-theme {
     @apply bg-light-bg dark:bg-dark-bg 
     bg-contain bg-center  
-  text-black dark:text-white dark:border-white
+    text-light dark:text-dark border-light dark:border-dark
     transition-all duration-500
   }
 
+  .light-dark-text {
+    @apply text-light dark:text-dark transition-all duration-500
+  }
+
+  .light-dark-border {
+    @apply border-light dark:border-dark transition-all duration-500
+  }
+
   .contact-form {
-    @apply flex flex-col border-2 w-96 h-[32rem] border-black p-12 
+    @apply flex flex-col border-2 w-96 h-[32rem] light-dark-border p-12 
   }
 
   .contact-form-items {
-    @apply border border-black mb-3
+    @apply border light-dark-border mb-3
 
   }  
+
+  .download-btn {
+    @apply border-4 light-dark-border rounded-md p-2 bg-black bg-opacity-0 hover:bg-opacity-5
+  }
 }

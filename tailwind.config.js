@@ -10,19 +10,14 @@ module.exports = {
       custom: ["custom", "sans-serif"],
     },
     extend: {
-      backgroundColor: {
-        primary: "var(--color-bg-primary)",
-        secondary: "var(--color-bg-secondary)",
-      },
-      textColor: {
-        accent: "var(--color-text-accent)",
-        primary: "var(--color-text-primary)",
-        secondary: "var(--color-text-secondary)",
-      },
       backgroundImage: {
-        'light-bg': "url(assets/imgs/light-bg.png)",
-        'dark-bg': "url(assets/imgs/dark-bg.png)",
-      }
+        "light-bg": "url(assets/imgs/light-bg.png)",
+        "dark-bg": "url(assets/imgs/dark-bg.png)",
+      },
+      colors: {
+        "dark": "var(--color-dark)",
+        "light": "var(--color-light)",
+      },
     },
   },
   plugins: [],

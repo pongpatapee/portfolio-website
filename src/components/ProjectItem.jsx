@@ -10,7 +10,7 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
 
   return (
     <div
-      className="w-96 m-5 p-3 border-4 border-black
+      className="w-96 m-5 p-3 border-4 light-dark-border
                     hover:scale-110 duration-200 cursor-pointer"
       onClick={openModal}
     >

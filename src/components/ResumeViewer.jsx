@@ -20,7 +20,7 @@ const ResumeViewer = () => {
       <Document file={PongpatapeeResume}
                 onLoadSuccess={onDocumentLoadSuccess} 
                 onLoadError={console.error}>
-        <Page pageNumber={pageNumber} width={1000} className="border-2 border-black" />
+        <Page pageNumber={pageNumber} width={1000} className="border-2 light-dark-border" />
       </Document>
       <p>
         Page {pageNumber} of {numPages}

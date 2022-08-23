@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
       <div
         className="flex flex-col justify-center items-center h-screen
-                  text-black bg-white light-dark-theme"
+                  bg-white light-dark-theme"
       >
         <h1 className="text-6xl mb-10 font-bold font-bubblyPixel">
           Welcome to my Portfolio!
