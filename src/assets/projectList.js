@@ -171,7 +171,7 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "str",
+    title: "discord bot",
     description: "str",
     image: "img",
     links: {

@@ -1,6 +1,7 @@
 :root {
   --color-dark: rgb(255, 255, 255);
   --color-light: rgb(0, 0, 0);
+  --transition-duration: 500ms;
 }
 
 @tailwind base;
@@ -30,7 +31,6 @@
 @layer base {
   * {
     @apply font-pixellari
-    /* @apply font-custom */
   }
 }
 
@@ -47,23 +47,27 @@
     @apply mx-3 text-xl
   }
 
-  .light-dark-theme {
-    @apply bg-light-bg dark:bg-dark-bg 
-    bg-contain bg-center  
-    text-light dark:text-dark border-light dark:border-dark
-    transition-all duration-500
+  .light-dark-bg {
+    @apply bg-light-bg dark:bg-dark-bg bg-contain bg-center 
   }
 
   .light-dark-text {
-    @apply text-light dark:text-dark transition-all duration-500
+    @apply text-light dark:text-dark 
   }
 
   .light-dark-border {
-    @apply border-light dark:border-dark transition-all duration-500
+    @apply border-light dark:border-dark 
+  }
+
+  .light-dark-theme {
+    @apply bg-light-bg dark:bg-dark-bg bg-contain bg-center 
+    text-light dark:text-dark  
+    border-light dark:border-dark
+    transition-all duration-[var(--transition-duration)]
   }
 
   .contact-form {
-    @apply flex flex-col border-2 w-96 h-[32rem] light-dark-border p-12 
+    @apply flex flex-col border-2 w-96 h-[32rem] p-12 light-dark-border light-dark-text 
   }
 
   .contact-form-items {
