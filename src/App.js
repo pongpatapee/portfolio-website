@@ -5,6 +5,7 @@ import Experience from "./pages/Experience";
 import Home from './pages/Home';
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
