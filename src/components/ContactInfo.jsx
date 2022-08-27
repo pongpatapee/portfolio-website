@@ -6,10 +6,6 @@ const ContactInfo = () => {
             <div><span>Phone: </span>(765)714-8805</div>
 
             <p className="">
-            description Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Aspernatur quae dignissimos iusto. Quam cumque aliquam laudantium
-            repudiandae illo, expedita nam doloribus facilis recusandae vero magni
-            architecto eaque nesciunt a. Facere!
             </p>
 
         </div>

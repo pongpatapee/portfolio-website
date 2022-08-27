@@ -6,8 +6,8 @@ const About = () => {
       <h1 className="text-2xl mb-2">
         Hi! My name is Dan
         <br />
-        I'm an undergraduate Computer Engineering student at Purdue with an emphasis
-        in Software Engineering and Machine Learning.
+        I'm an undergraduate Computer Engineering student at Purdue with an
+        emphasis in Software Engineering and Machine Learning.
       </h1>
     ),
 
@@ -15,23 +15,28 @@ const About = () => {
       //[&>*] targets div's children
       <div className="[&>*]:mb-4">
         <p>
-          I'm passionate about technology, problem-solving, and innovation.
-          
+          I am passionate about technology, problem-solving, and innovation. I
+          enjoy building things and have taught myself Software Development
+          through online tutorials and bootcamps.
         </p>
         <p>
           I've been studying at Purdue for three years. During that time I have
-          been apart of 2 research teams. Currently I
-          
-          : "Image Based Mobile Applications" and
-          "TensorFlow Model Garden". I am currently still active in TensorFlow
-          Model Garden where we research cutting edge Machine Learning models
-          such as YOLOX
+          been apart of 2 research teams. Currently I am working in the
+          TensorFlow Model Garden team, where we collaborate with Google to
+          contribute Machine Learning model implementations in TensorFlow to
+          their Model Garden (Repository for ML models).
         </p>
         <p>
-          I've also had the opportunity to work as a Software Engineer for
-          Interos Inc., where I was part of the Backend and API team. The summer
-          before that I worked as a Software Engineer in the Python ML team for
-          NSTDA (National Science and Technology Development Agency).
+          I've also had the opportunity to intern as a Software Engineer for&#160;
+          <a
+            href="https://www.interos.ai/"
+            className="hover:underline text-blue-600"
+          >
+            Interos Inc.
+          </a>
+          , a growing company revolutionizing supply-chain management. 
+          I worked there as part of the Backend &#38; API team, mainly focusing on
+          maintaining Backend infrastructure and addressing production bugs.
         </p>
       </div>
     ),
