@@ -4,18 +4,25 @@ const About = () => {
   const content = {
     header: (
       <h1 className="text-2xl mb-2">
-        Hi, I'm Dan.
+        Hi! My name is Dan
         <br />
-        An undergraduate Computer Engineering student at Purdue with an emphasis
+        I'm an undergraduate Computer Engineering student at Purdue with an emphasis
         in Software Engineering and Machine Learning.
       </h1>
     ),
 
     details: (
-      <div className="">
+      //[&>*] targets div's children
+      <div className="[&>*]:mb-4">
+        <p>
+          I'm passionate about technology, problem-solving, and innovation.
+          
+        </p>
         <p>
           I've been studying at Purdue for three years. During that time I have
-          been apart of 2 research team: "Image Based Mobile Applications" and
+          been apart of 2 research teams. Currently I
+          
+          : "Image Based Mobile Applications" and
           "TensorFlow Model Garden". I am currently still active in TensorFlow
           Model Garden where we research cutting edge Machine Learning models
           such as YOLOX
@@ -26,10 +33,6 @@ const About = () => {
           before that I worked as a Software Engineer in the Python ML team for
           NSTDA (National Science and Technology Development Agency).
         </p>
-        <p>
-          I love to create things so, I've taught myself web development through
-          online tutorials and udemy web development bootcamps
-        </p>
       </div>
     ),
     skills: [],
@@ -38,7 +41,7 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen light-dark-theme ">
+    <div className="flex flex-col justify-center items-center ">
       <div className="flex justify-center items-center max-w-6xl">
         <img
           src={content.img}

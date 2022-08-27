@@ -67,7 +67,7 @@
   }
 
   .contact-form {
-    @apply flex flex-col border-2 w-96 h-[32rem] p-12 light-dark-border light-dark-text 
+    @apply flex flex-col w-96 h-[32rem] p-12 light-dark-text 
   }
 
   .contact-form-items {
