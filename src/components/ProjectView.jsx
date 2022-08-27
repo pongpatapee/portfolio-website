@@ -37,7 +37,7 @@ const ProjectView = ({ projects }) => {
         })}
       </div>
 
-      <div className="fixed bottom-[2rem]">
+      <div className="pt-5">
         <div className="flex w-full justify-center text-3xl">
           {page === 1 ? null : <button onClick={handlePrevPage}>←</button>}
           <p className="mx-10">
