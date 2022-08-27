@@ -36,7 +36,8 @@
 
 @layer components {
   .home-btn {
-    @apply text-3xl font-kongtext m-6 cursor-pointer hover:scale-125 transition-transform duration-300
+    @apply lg:text-3xl md:text-2xl sm:text-lg font-kongtext m-6 
+    cursor-pointer hover:scale-125 transition-transform duration-300
   }
 
   .theme-btn {

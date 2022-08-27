@@ -3,7 +3,7 @@ import myPic from "../assets/imgs/myPic.jpg";
 const About = () => {
   const content = {
     header: (
-      <h1 className="text-2xl mb-2">
+      <h1 className="lg:text-2xl md:text-xl text-lg font-bold mb-2">
         Hi! My name is Dan
         <br />
         I'm an undergraduate Computer Engineering student at Purdue with an
@@ -13,7 +13,7 @@ const About = () => {
 
     details: (
       //[&>*] targets div's children
-      <div className="[&>*]:mb-4">
+      <div className="[&>*]:mb-4 lg:text-base md:text-sm text-xs">
         <p>
           I am passionate about technology, problem-solving, and innovation. I
           enjoy building things and have taught myself Software Development
