@@ -57,11 +57,16 @@ const projectList = [
   {
     id: uuidv4(),
     title: "ECE 461 NPM Module Trustworthiness Grader (Part 1)",
-    description: "str",
+    description: `Given the customer's requirements and constraints
+                  my team and I designed a CLI tool that would grade an
+                  NPM module. The CLI tool would extract information from
+                  the NPM modules' npmjs page and its GitHub repositories.
+                  The NPM modules were graded based on these metrics: Bus Factor, Ramp Up, Correctness, Responsiveness, Liscensing
+                  `,
     image: "img",
     links: {
-      "github": "url",
-      "demo": "url"
+      "github": "https://github.com/Purdue-ECE-461/project-1-project-1-2",
+      "demo": ""
     },
     tags: [],
   },
@@ -71,7 +76,7 @@ const projectList = [
     description: "",
     image: "img",
     links: {
-      "github": "url",
+      "github": "https://github.com/Purdue-ECE-461/project-2-project-2-2",
       "demo": ""
     },
     tags: [],
@@ -124,11 +129,11 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "Undergraduate ML research",
+    title: "ECE 595 (Advance Software Engineering) ML research",
     description: "",
     image: "img",
     links: {
-      "github": "url",
+      "github": "https://github.com/d57montes/model-zoos-research",
       "demo": ""
     },
     tags: [],
