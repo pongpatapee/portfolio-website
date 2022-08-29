@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-// import carImg from './imgs/self-driving-car.png';
+import raspberryRemote from './imgs/raspberrypi-remote-lightswitch.gif'
 
 function importAll(r) {
   let images = {};
@@ -28,8 +28,8 @@ const projectList = [
   {
     id: uuidv4(),
     title: "This Website! (Portfolio Website)",
-    description: "str",
-    image: "img",
+    description: "A react project to showcase some of the projects I've worked on",
+    image: images['portfolio.png'],
     links: {
       "github": "https://github.com/pongpatapee/portfolio-website",
       "demo": "https://pongpatapee.github.io/portfolio-website/"
@@ -89,18 +89,6 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "Flappy Bird AI",
-    description: `Created a flappy bird AI by implementing the NEAT genetic algorithm 
-                  with TensorFlowjs`,
-    image: "img",
-    links: {
-      "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
-      "demo": ""
-    },
-    tags: ["JS", "Genetic Algorithm", "Machine Learning"],
-  },
-  {
-    id: uuidv4(),
     title: "Self-Driving Car",
     description: `Created a self-driving car AI & Neural Network visualizer in vanilla JS 
                   using a simple genetic algorithm`,
@@ -113,7 +101,19 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "something name WebDev Bootcamp",
+    title: "Flappy Bird AI",
+    description: `Created a flappy bird AI by implementing the NEAT genetic algorithm 
+                  with TensorFlowjs`,
+    image: "img",
+    links: {
+      "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
+      "demo": ""
+    },
+    tags: ["JS", "Genetic Algorithm", "Machine Learning"],
+  },
+  {
+    id: uuidv4(),
+    title: "Colt Steele's Web Developer Bootcamp",
     description: "",
     image: "img",
     links: {
@@ -140,9 +140,9 @@ const projectList = [
                   to control servo motors to switch the lights on/off. Interact with 
                   Light switch through the Flask website on any device (phones, tablets, computers)
                   `,
-    image: "img",
+    image: raspberryRemote,
     links: {
-      "github": "url",
+      "github": "https://github.com/pongpatapee/Raspberry-Pi-Light-Switch",
       "demo": ""
     },
     tags: [],

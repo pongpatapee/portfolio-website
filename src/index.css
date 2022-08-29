@@ -41,11 +41,11 @@
   }
 
   .theme-btn {
-    @apply cursor-pointer ml-5
+    @apply cursor-pointer ml-5 hover:scale-110 transition-transform
   }
 
   .links li {
-    @apply mx-3 text-xl
+    @apply mx-3 text-xl hover:text-yellow-200 transition-colors
   }
 
   .light-dark-bg {
