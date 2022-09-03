@@ -10,9 +10,10 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
 
   return (
     <div
-      className="w-96 m-5 p-3 border-4 light-dark-border 
+      className="w-96 h-[18rem] m-5 p-3 border-4 light-dark-border 
                 hover:scale-110 transition-transform duration-200 
-                cursor-pointer flex flex-col justify-between"
+                cursor-pointer flex flex-col justify-between
+                "
       onClick={openModal}
     >
       <ProjectDetailView
@@ -25,8 +26,10 @@ const ProjectItem = ({ title, description, image, github, demo, tags }) => {
         demo={demo}
       />
       <h1 className="text-2xl font-bold text-center">{title}</h1>
-      {/* <p>{description}</p> */}
-      <img src={image} alt="demo-img" />
+      <img src={image} alt="demo-img" className="h-auto max-w-full overflow-hidden object-cover"/>
+      {/* <div className="flex justify-center flex-grow basis-0 border-4">
+        <img src={image} alt="demo-img" className="max-h-full"/>
+      </div> */}
       <div>
         <a
           href={github}

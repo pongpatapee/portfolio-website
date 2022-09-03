@@ -73,7 +73,13 @@ const projectList = [
   {
     id: uuidv4(),
     title: "ECE 461 NPM Trustworthy Module Registry (Part 2)",
-    description: "",
+    description: `
+                  Using the NPM module grader CLI tool from part 1. My team and I
+                  Designed a backend application that allows users to have access to
+                  a Trustworhty Module Registry. In which only NPM modules that has a certain grade
+                  can be stored. This allow users store trustworthy modules they can use for their project.
+                  The backend was created using Flask and the system was deployed to Google's App engine using GCP.
+                  `,
     image: images['ECE-461-Proj2.png'],
     links: {
       "github": "https://github.com/Purdue-ECE-461/project-2-project-2-2",
@@ -100,6 +106,17 @@ const projectList = [
   },
   {
     id: uuidv4(),
+    title: "TensorFlow Model Garden ML Undergrad Research",
+    description: "Collaborating with Google to re-impelment state of the art ML models to contribute to their TensorFlow Model Garden",
+    image: images['TFMG.jpg'],
+    links: {
+      "github": "",
+      "demo": ""
+    },
+    tags: [],
+  },
+  {
+    id: uuidv4(),
     title: "ECE 595 (Advance Software Engineering) ML research",
     description: "",
     image: images['ECE-595-Proj.png'],
@@ -118,29 +135,6 @@ const projectList = [
     links: {
       "github": "https://github.com/pongpatapee/self-driving-car-js",
       "demo": "https://pongpatapee.github.io/self-driving-car-js/"
-    },
-    tags: [],
-  },
-  {
-    id: uuidv4(),
-    title: "Flappy Bird AI",
-    description: `Created a flappy bird AI by implementing the NEAT genetic algorithm 
-                  with TensorFlowjs`,
-    image: "img",
-    links: {
-      "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
-      "demo": ""
-    },
-    tags: ["JS", "Genetic Algorithm", "Machine Learning"],
-  },
-  {
-    id: uuidv4(),
-    title: "Colt Steele's Web Developer Bootcamp",
-    description: "",
-    image: "img",
-    links: {
-      "github": "url",
-      "demo": ""
     },
     tags: [],
   },
@@ -179,6 +173,29 @@ const projectList = [
       "demo": "https://pongpatapee.github.io/Odin-Landing-Page-Project/"
     },
     tags: ["web dev", "HTML", "CSS"],
+  },
+  {
+    id: uuidv4(),
+    title: "Flappy Bird AI",
+    description: `Created a flappy bird AI by implementing the NEAT genetic algorithm 
+                  with TensorFlowjs`,
+    image: "img",
+    links: {
+      "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
+      "demo": ""
+    },
+    tags: ["JS", "Genetic Algorithm", "Machine Learning"],
+  },
+  {
+    id: uuidv4(),
+    title: "Colt Steele's Web Developer Bootcamp",
+    description: "",
+    image: "img",
+    links: {
+      "github": "url",
+      "demo": ""
+    },
+    tags: [],
   },
   {
     id: uuidv4(),
