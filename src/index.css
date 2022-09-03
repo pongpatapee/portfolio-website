@@ -45,7 +45,7 @@
   }
 
   .links li {
-    @apply mx-3 text-xl hover:text-yellow-200 transition-colors
+    @apply md:mx-3 md:text-xl text-3xl my-4 hover:text-yellow-200 transition-colors
   }
 
   .light-dark-bg {

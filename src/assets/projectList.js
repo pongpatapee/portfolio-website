@@ -63,7 +63,7 @@ const projectList = [
                   the NPM modules' npmjs page and its GitHub repositories.
                   The NPM modules were graded based on these metrics: Bus Factor, Ramp Up, Correctness, Responsiveness, Liscensing
                   `,
-    image: "img",
+    image: images['ECE-461-Proj1.png'],
     links: {
       "github": "https://github.com/Purdue-ECE-461/project-1-project-1-2",
       "demo": ""
@@ -74,7 +74,7 @@ const projectList = [
     id: uuidv4(),
     title: "ECE 461 NPM Trustworthy Module Registry (Part 2)",
     description: "",
-    image: "img",
+    image: images['ECE-461-Proj2.png'],
     links: {
       "github": "https://github.com/Purdue-ECE-461/project-2-project-2-2",
       "demo": ""
@@ -84,10 +84,27 @@ const projectList = [
   {
     id: uuidv4(),
     title: "NSTDA Internship",
-    description: "",
-    image: "img",
+    description: `
+                Summer 2021 Internship: At the time there was on-going research that COVID-19 patients
+                would emit certain aersol compounds from their breath. The premise of my project was to
+                see if it is possible to detect these compounds with an Electronic Nose and use an ML 
+                Classifier to rapidly test for COVID-19 infection. Thus, the project I worked on was
+                using an Electronic Nose to classify different scents.
+                `,
+    image: images['NSTDA-Soap-Classification.png'],
     links: {
-      "github": "url",
+      "github": "https://github.com/pongpatapee/NSTDA-Internship",
+      "demo": ""
+    },
+    tags: [],
+  },
+  {
+    id: uuidv4(),
+    title: "ECE 595 (Advance Software Engineering) ML research",
+    description: "",
+    image: images['ECE-595-Proj.png'],
+    links: {
+      "github": "https://github.com/d57montes/model-zoos-research",
       "demo": ""
     },
     tags: [],
@@ -129,17 +146,6 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "ECE 595 (Advance Software Engineering) ML research",
-    description: "",
-    image: "img",
-    links: {
-      "github": "https://github.com/d57montes/model-zoos-research",
-      "demo": ""
-    },
-    tags: [],
-  },
-  {
-    id: uuidv4(),
     title: "Raspberry PI Remote Light Switch",
     description: `Deployed a Flask webserver on the raspberry PI to listen to requests
                   to control servo motors to switch the lights on/off. Interact with 
@@ -154,17 +160,6 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "Odin Project Landing Page",
-    description: "Build a landing page layout with CSS",
-    image: images['Odin-landing-page.png'],
-    links: {
-      "github": "https://github.com/pongpatapee/Odin-Landing-Page-Project",
-      "demo": "https://pongpatapee.github.io/Odin-Landing-Page-Project/"
-    },
-    tags: ["web dev", "HTML", "CSS"],
-  },
-  {
-    id: uuidv4(),
     title: "Odin Project Etch a Sketch",
     description: "Build an Etch a Sketch canvas with JS & CSS",
     image: images['Odin-Etch-a-Sketch.png'],
@@ -176,12 +171,23 @@ const projectList = [
   },
   {
     id: uuidv4(),
-    title: "discord bot",
+    title: "Odin Project Landing Page",
+    description: "Build a landing page layout with CSS",
+    image: images['Odin-landing-page.png'],
+    links: {
+      "github": "https://github.com/pongpatapee/Odin-Landing-Page-Project",
+      "demo": "https://pongpatapee.github.io/Odin-Landing-Page-Project/"
+    },
+    tags: ["web dev", "HTML", "CSS"],
+  },
+  {
+    id: uuidv4(),
+    title: "Discord Bot",
     description: "str",
     image: "img",
     links: {
-      "github": "url",
-      "demo": "url"
+      "github": "",
+      "demo": ""
     },
     tags: [],
   },
