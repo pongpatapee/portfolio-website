@@ -38,6 +38,37 @@ const projectList = [
   },
   {
     id: uuidv4(),
+    title: "Discrepancies among Pre-trained Deep Neural Networks", 
+    description: `
+                Published paper in ESEC/FSE 2022 for investigating the discrepancies
+                and relability of various pre-trained Deep Neural Networks across different 
+                model zoos. 
+                `,
+    image: images['ECE-595-Proj.png'],
+    links: {
+      "github": "https://github.com/d57montes/model-zoos-research",
+      "demo": "https://www.conference-publishing.com/download.php?Event=FSE22IVR&Paper=2d22393f48e38fceafafd3e49ed38a&Version=submitted"
+    },
+    tags: [],
+  },
+  {
+    id: uuidv4(),
+    title: "TensorFlow Model Garden ML Undergrad Research",
+    description: `Collaborating with Google to re-impelment state of the art ML 
+                  models to contribute to their TensorFlow Model Garden. 
+                  Leading the YOLO team to re-implement the YOLOX model
+                  in TensorFlow.
+                  
+                  `,
+    image: images['TFMG.jpg'],
+    links: {
+      "github": "",
+      "demo": ""
+    },
+    tags: [],
+  },
+  {
+    id: uuidv4(),
     title: "Litter Detection AI",
     description: `3rd place Hackathon project: Desgined a raspberry PI camera system 
                   to aid in cleaning up the Purdue campus. The camera system module
@@ -100,28 +131,6 @@ const projectList = [
     image: images['NSTDA-Soap-Classification.png'],
     links: {
       "github": "https://github.com/pongpatapee/NSTDA-Internship",
-      "demo": ""
-    },
-    tags: [],
-  },
-  {
-    id: uuidv4(),
-    title: "TensorFlow Model Garden ML Undergrad Research",
-    description: "Collaborating with Google to re-impelment state of the art ML models to contribute to their TensorFlow Model Garden",
-    image: images['TFMG.jpg'],
-    links: {
-      "github": "",
-      "demo": ""
-    },
-    tags: [],
-  },
-  {
-    id: uuidv4(),
-    title: "ECE 595 (Advance Software Engineering) ML research",
-    description: "",
-    image: images['ECE-595-Proj.png'],
-    links: {
-      "github": "https://github.com/d57montes/model-zoos-research",
       "demo": ""
     },
     tags: [],
