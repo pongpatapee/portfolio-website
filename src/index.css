@@ -61,7 +61,7 @@
   }
 
   .light-dark-theme {
-    @apply bg-light-bg dark:bg-dark-bg bg-contain bg-center 
+    @apply bg-light-bg dark:bg-dark-bg bg-cover bg-center 
     text-light dark:text-dark 
     border-light dark:border-dark
     transition-all duration-[var(--transition-duration)]
