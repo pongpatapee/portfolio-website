@@ -1,5 +1,4 @@
 import ContactForm from "../components/ContactForm";
-import ContactInfo from "../components/ContactInfo";
 
 const Contact = () => {
   return (
@@ -10,7 +9,6 @@ const Contact = () => {
       >
         <h1 className="text-center text-4xl pb-5">Get In Touch</h1>
         <div className="flex">
-          <ContactInfo />
           <ContactForm />
         </div>
       </div>

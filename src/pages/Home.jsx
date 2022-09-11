@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <div className="home">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="lg:text-6xl md:text-4xl text-2xl font-bold font-bubblyPixel mb-3">
+        <h1 className="lg:text-6xl md:text-4xl sm:text-2xl text-lg font-bold font-bubblyPixel mb-3">
           Dan Peerapatanapokin
         </h1>
-        <h2 className="lg:text-5xl md:text-3xl text-xl font-bubblyPixel mb-5 ">
+        <h2 className="lg:text-5xl md:text-3xl sm:text-xl text-lg font-bubblyPixel mb-5 ">
           Welcome to my Portfolio!
         </h2>
         <Link to="/about">

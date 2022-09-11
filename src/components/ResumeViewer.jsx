@@ -30,6 +30,7 @@ const ResumeViewer = () => {
         <Page
           pageNumber={pageNumber}
           width={Math.floor(windowSize.width * 0.55)}
+          // style={{ borderWidth: "2px"}}
           className="border-2 light-dark-border"
         />
       </Document>

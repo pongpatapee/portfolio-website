@@ -47,14 +47,15 @@ const About = () => {
 
   return (
     <div className="flex flex-col justify-center items-center ">
-      <div className="flex justify-center items-center max-w-6xl">
+      <div className="flex md:flex-row flex-col justify-center items-center max-w-6xl">
         <img
           src={content.img}
           alt="my profile"
-          className="rounded-lg max-w-lg mr-10 shadow-lg"
+          className="rounded-lg lg:w-[32rem] md:w-[28rem] sm:w-[20rem] w-[16rem] mr-10 shadow-lg"
+          // className="rounded-lg max-w-lg mr-10 shadow-lg"
         />
 
-        <div className="h-full">
+        <div className="h-full md:max-w-xl max-w-sm">
           {content.header}
           {content.details}
         </div>
