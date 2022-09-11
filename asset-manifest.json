@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.d0e185d0.css",
-    "main.js": "/portfolio-website/static/js/main.77f496d3.js",
+    "main.js": "/portfolio-website/static/js/main.8c17d84e.js",
     "static/media/pdf.worker.js": "/portfolio-website/static/media/pdf.worker.5a4781656f64092ca08b.js",
     "static/media/ecomake-map.png": "/portfolio-website/static/media/ecomake-map.b8aeb2f10fb1e19f42cf.png",
     "static/media/Odin-rps.png": "/portfolio-website/static/media/Odin-rps.6884d22e4e6ab2a60e49.png",
@@ -15,7 +15,7 @@
     "static/media/discordbot.png": "/portfolio-website/static/media/discordbot.d117d59621c323f892aa.png",
     "static/media/light-bg.png": "/portfolio-website/static/media/light-bg.4d66dfa4b96324ceb15a.png",
     "static/media/TFMG.jpg": "/portfolio-website/static/media/TFMG.8859fe9bfb13c0420d11.jpg",
-    "static/media/PongpatapeeResume.pdf": "/portfolio-website/static/media/PongpatapeeResume.fc3ca28e788c9dd11d2c.pdf",
+    "static/media/PongpatapeeResume.pdf": "/portfolio-website/static/media/PongpatapeeResume.f06241be77139f08185a.pdf",
     "static/media/myPic.jpg": "/portfolio-website/static/media/myPic.09af601b7cc0969eb95e.jpg",
     "static/media/light-bg-2.jpg": "/portfolio-website/static/media/light-bg-2.99c06e19dda06e4899f6.jpg",
     "static/media/light-bg1.jpg": "/portfolio-website/static/media/light-bg1.0190877d50c582916b44.jpg",
@@ -31,10 +31,10 @@
     "static/media/kongtext.ttf": "/portfolio-website/static/media/kongtext.a27eec77292c75f788cc.ttf",
     "index.html": "/portfolio-website/index.html",
     "main.d0e185d0.css.map": "/portfolio-website/static/css/main.d0e185d0.css.map",
-    "main.77f496d3.js.map": "/portfolio-website/static/js/main.77f496d3.js.map"
+    "main.8c17d84e.js.map": "/portfolio-website/static/js/main.8c17d84e.js.map"
   },
   "entrypoints": [
     "static/css/main.d0e185d0.css",
-    "static/js/main.77f496d3.js"
+    "static/js/main.8c17d84e.js"
   ]
 }
