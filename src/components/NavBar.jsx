@@ -5,7 +5,7 @@ import logo from "../assets/imgs/computer-logo.png";
 const NavBar = () => {
   return (
     // <nav className="fixed top-0 min-w-full h-16 pt-2 light-dark-text">
-    <nav className="sticky top-0 w-full pt-2 light-dark-text">
+    <nav className="sticky top-0 w-full pt-2 light-dark-text z-10">
       <div className="flex items-center justify-between mx-20">
         {/* <h1>Logo</h1> */}
         <Link to="/">
