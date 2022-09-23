@@ -183,40 +183,40 @@ const projectList = [
     },
     tags: ["web dev", "HTML", "CSS"],
   },
-  {
-    id: uuidv4(),
-    title: "Flappy Bird AI",
-    description: `Created a flappy bird AI by implementing the NEAT genetic algorithm 
-                  with TensorFlowjs`,
-    image: "img",
-    links: {
-      "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
-      "demo": ""
-    },
-    tags: ["JS", "Genetic Algorithm", "Machine Learning"],
-  },
-  {
-    id: uuidv4(),
-    title: "Colt Steele's Web Developer Bootcamp",
-    description: "",
-    image: "img",
-    links: {
-      "github": "url",
-      "demo": ""
-    },
-    tags: [],
-  },
-  {
-    id: uuidv4(),
-    title: "Discord Bot",
-    description: "str",
-    image: "img",
-    links: {
-      "github": "",
-      "demo": ""
-    },
-    tags: [],
-  },
+  // {
+  //   id: uuidv4(),
+  //   title: "Flappy Bird AI",
+  //   description: `Created a flappy bird AI by implementing the NEAT genetic algorithm 
+  //                 with TensorFlowjs`,
+  //   image: "img",
+  //   links: {
+  //     "github": "https://github.com/pongpatapee/Flappy-Bird-AI",
+  //     "demo": ""
+  //   },
+  //   tags: ["JS", "Genetic Algorithm", "Machine Learning"],
+  // },
+  // {
+  //   id: uuidv4(),
+  //   title: "Colt Steele's Web Developer Bootcamp",
+  //   description: "",
+  //   image: "img",
+  //   links: {
+  //     "github": "url",
+  //     "demo": ""
+  //   },
+  //   tags: [],
+  // },
+  // {
+  //   id: uuidv4(),
+  //   title: "Discord Bot",
+  //   description: "str",
+  //   image: "img",
+  //   links: {
+  //     "github": "",
+  //     "demo": ""
+  //   },
+  //   tags: [],
+  // },
 ];
 
 export default projectList;
