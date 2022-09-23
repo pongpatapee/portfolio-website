@@ -4,7 +4,7 @@ const ResumeViewer = () => {
 
   return (
     <div className="resume-viewer flex flex-col justify-center items-center 
-                    w-full h-full">
+                    w-full h-full"> 
       <a
         href={PongpatapeeResume}
         download
@@ -15,7 +15,7 @@ const ResumeViewer = () => {
 
       <object
         data={PongpatapeeResume}
-        width="35%"
+        width="60%"
         height="80%"
       >
         My PDF resume

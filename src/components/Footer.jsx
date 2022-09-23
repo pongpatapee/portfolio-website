@@ -3,7 +3,7 @@ import LinkedinLogo from "../assets/imgs/8bit_linkedin_logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bottom-[1rem] w-screen">
+    <footer className="bottom-[1rem] w-screen z-10">
       <div className="flex items-center justify-between mx-14">
         <div>
           Dan Peerapatanapokin © {new Date().getFullYear()} 
