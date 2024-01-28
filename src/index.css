@@ -1,82 +1,68 @@
 :root {
-  --color-dark: rgb(255, 255, 255);
-  --color-light: rgb(0, 0, 0);
-  --transition-duration: 500ms;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-  font-family: "Pixellari";
-  src: url("./fonts/Pixellari.ttf")
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
 }
 
-@font-face {
-  font-family: "bubblyPixel";
-  src: url("./fonts/bubblyPixel.TTF")
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-@font-face {
-  font-family: "kongtext";
-  src: url("./fonts/kongtext.ttf")
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
-@font-face {
-  font-family: "custom";
-  src: url("./fonts/kongtext.ttf")
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@layer base {
-  * {
-    @apply font-pixellari
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-}
-
-@layer components {
-  .home-btn {
-    @apply lg:text-3xl md:text-2xl sm:text-lg font-kongtext m-6 
-    cursor-pointer hover:scale-125 transition-transform duration-300
+  a:hover {
+    color: #747bff;
   }
-
-  .theme-btn {
-    @apply cursor-pointer ml-5 hover:scale-110 transition-transform
-  }
-
-  .links li {
-    @apply mx-3 text-xl  my-4 hover:text-yellow-200 transition-colors
-  }
-
-  .light-dark-bg {
-    @apply bg-light-bg dark:bg-dark-bg bg-contain bg-center 
-  }
-
-  .light-dark-text {
-    @apply text-light dark:text-dark 
-  }
-
-  .light-dark-border {
-    @apply border-light dark:border-dark 
-  }
-
-  .light-dark-theme {
-    @apply bg-light-bg dark:bg-dark-bg bg-cover bg-center 
-    text-light dark:text-dark 
-    border-light dark:border-dark
-    transition-all duration-[var(--transition-duration)]
-  }
-
-  .contact-form {
-    @apply flex flex-col w-96 h-[32rem] p-12 light-dark-text 
-  }
-
-  .contact-form-items {
-    @apply border light-dark-border mb-3
-
-  }  
-
-  .download-btn {
-    @apply border-4 light-dark-border rounded-md p-2 bg-black bg-opacity-0 hover:bg-opacity-5
+  button {
+    background-color: #f9f9f9;
   }
 }
