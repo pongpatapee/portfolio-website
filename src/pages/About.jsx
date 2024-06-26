@@ -15,11 +15,6 @@ const About = () => {
       //[&>*] targets div's children
       <div className="[&>*]:mb-4 lg:text-base md:text-sm text-xs">
         <p>
-          I am passionate about technology, problem-solving, and innovation. I
-          enjoy building things and have taught myself Software Development
-          through online tutorials and bootcamps.
-        </p>
-        <p>
           I've been studying at Purdue for three years. During that time I have
           been apart of 2 research teams. Currently I am working in the
           TensorFlow Model Garden team, where we collaborate with Google to
